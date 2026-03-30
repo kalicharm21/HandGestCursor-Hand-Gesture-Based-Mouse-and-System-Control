@@ -1,13 +1,5 @@
 # HandGestCursor – Hand Gesture Mouse using Computer Vision
 
-**Course:** Computer Vision (CSE3010) – BYOP (Bring Your Own Project)  
-**Enrolled in:** VITyarthi Platform – Slot C11 + C12  
-**Student:** Ishaan Mittal | 23BAI10462  
-**Faculty:** Dr. Raghavendra Mishra  
-**Institution:** VIT Bhopal University
-
----
-
 ## Project Overview
 
 **HandGestCursor** is a hand‑gesture‑based virtual mouse that uses **computer‑vision techniques** (OpenCV + MediaPipe) to detect hand landmarks and translate them into mouse actions such as:
