@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **HandGestCursor** is a hand‑gesture‑based virtual mouse that uses **computer‑vision techniques** (OpenCV + MediaPipe) to detect hand landmarks and translate them into mouse actions such as:
 
@@ -22,7 +22,7 @@ The system runs on a standard webcam and requires no extra hardware, making it a
 
 ---
 
-## 📦 Technologies & Libraries Used
+## Technologies & Libraries Used
 
 - **Python 3.x** (tested on 3.10+)
 - **OpenCV** – webcam capture, real‑time video processing
@@ -34,7 +34,7 @@ The system runs on a standard webcam and requires no extra hardware, making it a
 
 ---
 
-## 🧩 Gesture Mapping (Supported Actions)
+## Gesture Mapping (Supported Actions)
 
 | Gesture            | Hand Location | Action |
 |--------------------|---------------|--------|
@@ -51,7 +51,7 @@ Pinch thresholds are tuned for smooth volume and brightness adjustments.
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 1. Ensure you have **Python 3.9+** installed on your machine.
 
@@ -90,7 +90,7 @@ Pinch thresholds are tuned for smooth volume and brightness adjustments.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Open a terminal inside the project folder:
 
@@ -117,7 +117,7 @@ Pinch thresholds are tuned for smooth volume and brightness adjustments.
 
 ---
 
-## 🧑‍🏫 Target Users
+## Target Users
 
 - **Accessibility‑focused users** who benefit from touch‑free interaction.
 - **HCI researchers** exploring gesture‑based input.
@@ -125,20 +125,7 @@ Pinch thresholds are tuned for smooth volume and brightness adjustments.
 
 ---
 
-## 🧠 Syllabus Coverage (CSE3010 – Computer Vision)
-
-This project demonstrates and applies key computer‑vision concepts:
-
-- Real‑time **video capture and processing** (OpenCV).
-- **Hand landmark detection** using MediaPipe.
-- **Feature extraction** from finger positions and distances.
-- **Gesture classification** logic (V‑gesture, pinch, fist, etc.).
-- **Real‑time mapping** of visual features to system actions.
-- **MediaPipe + OpenCV integration** for production‑style applications.
-
----
-
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 hand-gesture-mouse-byop/
@@ -149,41 +136,3 @@ hand-gesture-mouse-byop/
 │   └── project_report.md      ← Project report (can be exported as PDF)
 └── README.md                  ← This file (VITyarthi‑style README)
 ```
-
----
-
-## 📄 Project Report Submission
-
-A separate project report document is maintained in `docs/project_report.md` (or `.pdf`) with:
-- Problem statement
-- Objectives
-- Methodology
-- Results & observations
-- Future improvements
-- Screenshots
-
-This report is submitted via the **VITyarthi platform** along with this GitHub repo link.
-
----
-
-## 📸 Screenshots (Recommended)
-
-In your report, include:
-- Screenshot of the running GUI with hand gesture overlay.
-- Screenshot of `requirements.txt` installation.
-- Short demo screenshots of:
-  - Cursor movement with V‑gesture.
-  - Clicking, double‑clicking.
-  - Volume / brightness change with pinch‑major.
-
----
-
-## 📝 Important Notes
-
-- This project **requires a webcam** and **Python 3.9+**.
-- Ensure:
-  - `pyautogui` is allowed to control the mouse (no conflicting mouse‑blocking software).
-  - Your laptop brightness driver is supported by `screen_brightness_control`.
-- This code is **for educational use** and fits CSE3010 BYOP standards.
-
----
